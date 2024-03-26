@@ -1,0 +1,45 @@
+#contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(../images/bg__contact.svg);
+    background-size: cover;
+}
+.logo__contact {
+    margin: 9rem 0;
+}
+.contact__text{
+    width: 71.111vw;
+    color: var(--color-04);
+    font-size: 7.5rem;
+    text-align: right;
+    font-family: 'establishRoomNo703OTF';
+    font-style: italic;
+    letter-spacing: 1.5rem;
+}
+.contact__mail {
+    width: 100%;
+    height: 90px;
+    background-color: var(--color-01);
+    margin: 2rem 0 5rem;
+    display: flex;
+    justify-content: center;
+}
+.mail__text {
+    width: 71.111vw;
+}
+.mail__text p {
+    width: 97%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: 'establishRoomNo703OTF';
+    font-style: italic;
+    letter-spacing: 0.2rem;
+    padding-top: 0.4rem;
+    color: var(--color-04);
+}

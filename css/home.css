@@ -1,0 +1,65 @@
+#home {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(../images/bg__home.svg);
+    background-size: cover;
+    height: 1130px;
+}
+.nav__container {
+    width: 71.111vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo {
+    margin: 2.5rem;
+}
+.nav__bar {
+    z-index: 9;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nav__menu {
+    padding: 0;
+    width: 45rem;
+    display: flex;
+    justify-content: space-between;
+}
+.nav__menu__items {
+    padding: 8px 12px;
+}
+.nav__menu__items a{
+    color: var(--color-03);
+    font-style: normal;
+    letter-spacing: 0;
+    font-weight: 600;
+}
+.togglebtn {
+    display: none;
+}
+
+.home__text {
+    width: 71.111vw;
+    padding-top: 7rem;
+}
+
+.home__tt {
+    color: var(--color-04);
+    font-size: 7.5rem;
+    text-align: right;
+    font-family: 'establishRoomNo703OTF';
+    font-style: italic;
+    letter-spacing: 1.5rem;
+    margin: 0;
+}
+
+.nav__bar.sticky {
+    position: fixed;
+    top: 0;
+    background-color: var(--color-01);
+    box-shadow: 0px 1px 20px 0px rgba(158, 158, 158, 0.3);
+    transition: all .5s;
+}

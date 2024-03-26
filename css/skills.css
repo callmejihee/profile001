@@ -1,0 +1,121 @@
+#skills {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--color-03);
+    background-size: cover;
+}
+.logo__skills {
+    margin: 9rem 0;
+}
+.skills__container {
+    margin-bottom: 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+.skills__con {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--color-02);
+    padding: 0 5rem;
+}
+.skills__con:nth-child(2) {
+    color: var(--color-04);
+}
+.skills__con__title h4 {
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0.2rem;
+}
+.skills__con__title h2 {
+    font-family: 'establishRoomNo703OTF';
+    letter-spacing: 1rem;
+    font-size: 4rem;
+    font-style: italic;
+    margin: 0 0 3rem;
+}
+.skills__con__list {
+    width: 100%;
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2rem;
+    border-bottom: 1px solid var(--color-02);
+    padding: 1.5rem 0;
+}
+.skills__con__02 .skills__con__list {
+    border-bottom: 1px solid var(--color-04);
+}
+.skills__list {
+    width: 100%;
+    display: flex;
+}
+.skills__list__dot {
+    display: flex;
+}
+.dot {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: var(--color-02);
+    margin-left: 1rem;
+}
+.skills__con__01 .list__dot__04 .dot__03 {
+    background-color: var(--color-03);
+    border: 1px solid var(--color-02);
+}
+.skills__con__01 .list__dot__04 .dot__04 {
+    background-color: var(--color-03);
+    border: 1px solid var(--color-02);
+}
+.skills__con__01 .list__dot__04 .dot__05 {
+    background-color: var(--color-03);
+    border: 1px solid var(--color-02);
+}
+.skills__con__01 .list__dot__03 .dot__03 {
+    background-color: var(--color-03);
+    border: 1px solid var(--color-02);
+}
+.skills__con__01 .list__dot__03 .dot__04 {
+    background-color: var(--color-03);
+    border: 1px solid var(--color-02);
+}
+.skills__con__01 .list__dot__03 .dot__05 {
+    background-color: var(--color-03);
+    border: 1px solid var(--color-02);
+}
+.skills__con__01 .list__dot__02 .dot__04 {
+    background-color: var(--color-03);
+    border: 1px solid var(--color-02);
+}
+.skills__con__01 .list__dot__02 .dot__05 {
+    background-color: var(--color-03);
+    border: 1px solid var(--color-02);
+}
+.skills__con__01 .list__dot__01 .dot__05 {
+    background-color: var(--color-03);
+    border: 1px solid var(--color-02);
+}
+.skills__con__02 .dot {
+    background-color: var(--color-04);
+}
+.skills__con__02 .list__dot__01 .dot__05 {
+    background-color: var(--color-03);
+    border: 1px solid var(--color-04);
+}
+.skills__con__02 .list__dot__02 .dot__05 {
+    background-color: var(--color-03);
+    border: 1px solid var(--color-04);
+}
+.skills__con__02 .list__dot__03 .dot__04 {
+    background-color: var(--color-03);
+    border: 1px solid var(--color-04);
+}
+.skills__con__02 .list__dot__03 .dot__05 {
+    background-color: var(--color-03);
+    border: 1px solid var(--color-04);
+}

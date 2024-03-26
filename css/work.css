@@ -1,0 +1,82 @@
+#work {
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--color-01);
+    background-size: cover;
+}
+.logo__work {
+    margin: 9rem 0;
+}
+
+/* BUTTONS 영역========== =*/
+#work {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--color-01);
+    background-size: cover;
+}
+.logo__work {
+    margin: 9rem 0;
+}
+.work__button {
+    width: 71.111vw;
+}
+.work__button ul {
+    height: 4rem;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.work__btn{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 40%;
+    background-color: var(--color-03);
+    transition: all .3s;
+}
+.work__btn.active {
+    width: 30%;
+    background-color: var(--color-04);
+    transition: all .3s;
+}
+.work__btn__filter {
+    background-color: transparent;
+    border: 0;
+    font-family: 'establishRoomNo703OTF';
+    letter-spacing: 0.3rem;
+    font-size: 1.5rem;
+    color: var(--color-02);
+    width: 100%;
+    cursor: pointer;
+    padding-top: 0.8rem;
+}
+/* CONTETNS 영역========== =*/
+.work__list {
+    width: 71.111vw;
+    margin: 2rem 0 5rem;
+    position: relative;
+    padding-bottom: 50px;
+}
+.work__list ul {
+    padding: 0;
+    display: grid;
+    grid-auto-rows: minmax(15rem,auto);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+.work__list ul li {
+    text-align: center;
+}
+.work__con h3 {
+    padding-bottom: 50px;
+}
+.work__con img {
+    width: 100%;
+}
